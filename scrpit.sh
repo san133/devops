@@ -2,4 +2,4 @@
 
 mkdir nikhigit
 
-
+apt-get install docker
