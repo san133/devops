@@ -23,3 +23,4 @@
     - name: Get changed config for VyOS devices
       vyos.vyos.vyos_facts:
         gather_subset: all
+        hskfsaskfaslfsalsfa
