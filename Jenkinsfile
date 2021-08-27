@@ -15,8 +15,9 @@ steps
  {
    steps
      {
-         sh "cd /home/ubuntu ; sudo mkdir caterpiller"
+         sh "cd /home/ubuntu ; sudo mkdir caterpiller" 
      }   
  }
      }
+    
 }
