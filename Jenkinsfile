@@ -17,3 +17,4 @@ steps
          sh "cd /home/ubuntu ; sudo mkdir caterpiller"
      }   
  }
+}
