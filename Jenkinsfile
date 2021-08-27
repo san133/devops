@@ -1,29 +1,10 @@
--pipeline {
-- agent {
-- label 'slave'
-- }
-- stages {
--
-- stage ('checkout')
--{
--
-- steps
--     {
--           checkout scm
--
--      }
-- }
--
-- stage('Test')
--{
--      steps {
--                sh "cd /home/ubuntu ; sudo mkdir testfloder"
--
--            }
--
--}
--      }
--
--
--
--}
+pipeline {
+    agent { docker { image 'maven:3.3.3' } }
+    stages {
+        stage('build') {
+            steps {
+                sh 'mvn --version'
+            }
+        }
+    }
+}
