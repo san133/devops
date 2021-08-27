@@ -1,4 +1,3 @@
-
 #!/usr/bin/env groovy
  
 node {
@@ -48,4 +47,5 @@ node {
      echo "Success" 
      }
  }
+}
 }
