@@ -9,7 +9,8 @@ stage ('checkout')
 steps 
     {
         checkout scm        
- }
+     }
+}
  stage ('creation for folder')
  {
    steps
@@ -17,4 +18,5 @@ steps
          sh "cd /home/ubuntu ; sudo mkdir caterpiller"
      }   
  }
+     }
 }
