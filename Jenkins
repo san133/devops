@@ -1,15 +1,15 @@
-pipeline { 
+pipeline {
  agent {
- label 'slave'
+ label 'ubuntu-slave'
  }
  stages {
 
- stage ('checkout')  
+ stage ('checkout')
 {
 
- steps 
-     {   
-           checkout scm 
+ steps
+     {
+           checkout scm
 
       }
  }
@@ -18,7 +18,7 @@ pipeline {
 {
       steps {
                 sh "cd /home/ubuntu ; sudo mkdir testfloder"
-                
+
             }
 
 }
