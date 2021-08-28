@@ -1,6 +1,6 @@
 pipeline{
 agent{
-label 'ubuntu-slave'
+label 
 }
 stages{
 stage('checkout')
