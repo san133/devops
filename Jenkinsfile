@@ -3,7 +3,7 @@ agent {
 label 'ubuntu-slave'
 }
 stages {
-stage("Git checkout")
+stage('checkout')
  {      
   steps
      {
