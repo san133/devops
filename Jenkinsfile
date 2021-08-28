@@ -18,3 +18,4 @@ stage('checkout')
          sh "cd/home/ubuntu ; sudo mkdir kathafolder"
      }   
  }
+     }
