@@ -3,11 +3,11 @@ agent {
 label 'ubuntu-slave'
 }
 stages {
-stage('checkout')
+stage("Git checkout")
  {      
   steps
      {
-         checkout scm
+         git credentialsId: 'javahome2' , url: 
          
       }
  }
