@@ -7,7 +7,7 @@ stage("Git checkout")
  {      
   steps
      {
-         git credentialsId: url: https://github.com/san133/devops.git
+         git credentialsId url: https://github.com/san133/devops.git
          
       }
  }
