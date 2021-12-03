@@ -1,6 +1,10 @@
 pipeline{
 agent{
+<<<<<<< HEAD
 label 'newnode'
+=======
+label ''
+>>>>>>> testing
 }
 stages{
 stage('checkout')
